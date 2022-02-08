@@ -1,0 +1,26 @@
+.header__container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-top: 37px;
+  padding-left: 175px;
+  padding-right: 175px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 376px) and (max-width: 1024px) {
+  .header__container {
+   padding-right: 100px;
+   padding-left: 100px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .header__container {
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

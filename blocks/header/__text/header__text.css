@@ -1,0 +1,15 @@
+.header__text {
+  width: 221px;
+  font-size: 18px;
+  line-height: 140%;
+  margin-top: 0;
+  margin-bottom: 28px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .header__text {
+    margin-right: 139px;
+    margin-bottom: 35px;
+  }
+}

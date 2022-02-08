@@ -1,0 +1,10 @@
+.header__link-list {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 376px) and (max-width: 1024px) {
+  .header__link-list {
+    display: none;
+  }
+}
+

@@ -1,0 +1,12 @@
+.header__contact {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #e5e5e5;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .header__contact {
+    display: none;
+  }
+}

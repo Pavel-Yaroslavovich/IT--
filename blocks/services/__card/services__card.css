@@ -1,0 +1,18 @@
+.services__card {
+  display: flex;
+  max-width: 333px;
+  margin-bottom: 63px;
+  border: 1px solid palevioletred;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .services__card {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .services__card {
+    max-width: 264px;
+  }
+}

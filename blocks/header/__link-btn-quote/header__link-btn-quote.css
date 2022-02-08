@@ -1,0 +1,22 @@
+.header__link-btn-quote {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1440px) {
+  .header__link-btn-quote {
+    display: flex;
+  justify-content: space-between;
+
+
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .header__link-btn-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 360px;
+  }
+}

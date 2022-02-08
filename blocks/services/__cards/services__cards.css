@@ -1,0 +1,20 @@
+.services__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1050px;
+  border: 1px solid blue;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .services__cards {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .services__cards {
+    max-width: 375px;
+  }
+}

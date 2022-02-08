@@ -1,0 +1,21 @@
+.about-Us__text-briefly {
+    font-size: 18px;
+    line-height: 140%;
+    color: #252D37;
+    max-width: 821px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1440px) {
+  .about-Us__text-briefly  {
+    max-width: 821px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .about-Us__text-briefly {
+    font-size: 16px;
+    color: #252D37;
+  }
+}

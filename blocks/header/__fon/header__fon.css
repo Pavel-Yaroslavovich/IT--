@@ -1,0 +1,13 @@
+.header__fon {
+  background: url("../../../images/rectangle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1440px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .header__fon {
+    padding-top: 37px;
+  }
+}

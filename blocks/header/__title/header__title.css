@@ -1,0 +1,19 @@
+.header__title {
+  font-size: 50px;
+  line-height: 110%;
+  margin-top: 0;
+  margin-bottom: 57px;
+  max-width: 568px;
+  color: #00feff;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .header__title {
+    margin-right: 23px;
+    font-size: 40px;
+    line-height: 103.32%;
+    box-sizing: border-box;
+    width: 333px;
+    margin-bottom: 46px;
+  }
+}
