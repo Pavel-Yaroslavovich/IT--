@@ -1,0 +1,18 @@
+.services__btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 14px 19px 13px 22px;
+  color: #002047;
+  background: #00feff;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .services__btn {
+    display: none;
+  }
+}

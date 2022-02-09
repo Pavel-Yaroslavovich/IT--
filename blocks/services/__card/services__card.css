@@ -1,12 +1,17 @@
 .services__card {
   display: flex;
-  max-width: 333px;
+  width: 285px;
   margin-bottom: 63px;
   border: 1px solid palevioletred;
 }
 
+.services__card:last-child {
+  margin-bottom: 63px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .services__card {
+    width: 350px;
     margin-bottom: 40px;
   }
 }
@@ -14,5 +19,6 @@
 @media screen and (min-width: 376px) and (max-width: 768px) {
   .services__card {
     max-width: 264px;
+    margin-bottom: 54px;
   }
 }

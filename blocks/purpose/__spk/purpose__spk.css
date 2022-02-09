@@ -1,0 +1,22 @@
+.purpose__spk {
+  display: flex;
+  align-items: center;
+  padding-left: 81px;
+  border: 1px solid purple;
+  margin-bottom: 111px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1128px) {
+  .purpose__spk {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .purpose__spk {
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+}

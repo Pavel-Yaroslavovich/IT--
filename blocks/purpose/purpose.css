@@ -1,0 +1,21 @@
+.purpose {
+  margin: 0 auto;
+  max-width: 1100px;
+  margin-bottom: 125px;
+  margin-left: 175px;
+  margin-right: 175px;
+  border: 1px solid gray;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .purpose {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .purpose {
+    width: 344px;
+    margin: 0 auto;
+  }
+}
