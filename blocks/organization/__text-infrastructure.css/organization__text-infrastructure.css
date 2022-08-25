@@ -1,0 +1,11 @@
+.organization__text-infrastructure {
+  display: flex;
+}
+
+@media screen and (min-width: 376px) and (max-width: 800px) {
+  .organization__text-infrastructure {
+    flex-direction: column;
+    width: 345px;
+    margin: 0 auto;
+  }
+}

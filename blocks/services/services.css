@@ -1,21 +1,15 @@
 .services {
   margin: 0 auto;
   max-width: 1100px;
-  border: 1px solid red;
-  margin-bottom: 125px;
+  margin-bottom: 58px;
   margin-left: 175px;
   margin-right: 175px;
-}
-
-@media screen and (min-width: 767px) and (max-width: 1024px) {
-  .services {
-    margin-left: 100px;
-  }
 }
 
 @media screen and (min-width: 376px) and (max-width: 767px) {
   .services {
     margin: 0 auto;
     max-width: 345px;
+    margin-bottom: 50px;
   }
 }

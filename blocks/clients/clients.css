@@ -1,0 +1,14 @@
+.clients {
+  margin-right: 175px;
+  margin-left: 175px;
+  max-width: 1089px;
+  margin-bottom: 43px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .clients  {
+    width: 345px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+  }
+}

@@ -1,0 +1,19 @@
+.prices__text-cards {
+  display: flex;
+  max-width: 1089px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 376px) and (max-width: 1439px) {
+  .prices__text-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 702px) {
+  .prices__text-cards {
+    width: 345px;
+    margin: 0 auto;
+  }
+}

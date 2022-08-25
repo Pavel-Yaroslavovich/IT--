@@ -48,3 +48,61 @@
 @import url(../blocks/purpose/__title/purpose__title.css);
 @import url(../blocks/purpose/__spk-text/purpose__spk-text.css);
 @import url(../blocks/purpose/__connection-text/purpose__connection-text.css);
+@import url(../blocks/purpose/__choice-text-photo/purpose__choice-text-photo.css);
+@import url(../blocks/purpose/__choice/purpose__choice.css);
+@import url(../blocks/purpose/__choice-text/purpose__choice-text.css);
+
+/*===prices===*/
+@import url(../blocks/prices/prices.css);
+@import url(../blocks/prices/__title/prices__title.css);
+@import url(../blocks/prices/__text-cards/prices__text-cards.css);
+@import url(../blocks/prices/__text-request/prices__text-request.css);
+@import url(../blocks/prices/__btn-it/prices__btn-it.css);
+@import url(../blocks/prices/__cards/prices__cards.css);
+@import url(../blocks/prices/__btn-price-it/prices__btn-price-it.css);
+@import url(../blocks/prices/__btn-mounting/prices__btn-mounting.css);
+@import url(../blocks/prices/__btn-price-mounting/prices__btn-price-mounting.css);
+@import url(../blocks/prices/__btn/prices__btn.css);
+
+/*===card===*/
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__tariff-plan/card__tariff-plan.css);
+@import url(../blocks/card/__easy-start/card__easy-start.css);
+@import url(../blocks/card/__prices-rub/card__prices-rub.css);
+@import url(../blocks/card/__rub-month/card__rub-month.css);
+@import url(../blocks/card/__workplace/card__workplace.css);
+
+/*===clients===*/
+@import url(../blocks/clients/clients.css);
+@import url(../blocks/clients/__title/clients__title.css);
+@import url(../blocks/clients/__logo/clients__logo.css);
+
+/*===organization===*/
+@import url(../blocks/organization/organization.css);
+@import url(../blocks/organization/__title/organization__title.css);
+@import url(../blocks/organization/__text-infrastructure.css/organization__text-infrastructure.css);
+@import url(../blocks/organization/__text/organization__text.css);
+
+/*===request===*/
+@import url(../blocks/request/request.css);
+@import url(../blocks/request/__fon/request__fon.css);
+@import url(../blocks/request/__container/request__container.css);
+@import url(../blocks/request/__text/request__text.css);
+@import url(../blocks/request/__form/request__form.css);
+@import url(../blocks/request/__int/request__int.css);
+@import url(../blocks/request/__area/request__area.css);
+@import url(../blocks/request/__checkbox-form/request__checkbox-form.css);
+@import url(../blocks/request/__checkbox/request__checkbox.css);
+@import url(../blocks/request/__checkbox-text/request__checkbox-text.css);
+@import url(../blocks/request/__btn/request__btn.css);
+
+/*===footer===*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__mail-tel/footer__mail-tel.css);
+@import url(../blocks/footer/__mail/footer__mail.css);
+@import url(../blocks/footer/__tel/footer__tel.css);
+@import url(../blocks/footer/__tel-text/footer__tel-text.css);
+@import url(../blocks/footer/__text-year/footer__text-year.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__year/footer__year.css);

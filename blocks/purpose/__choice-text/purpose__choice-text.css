@@ -1,0 +1,26 @@
+.purpose__choice-text {
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 276px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1128px) {
+  .purpose__choice-text {
+    margin-right: 40px;
+  }
+
+  .purpose__choice-text:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .purpose__choice-text {
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+}

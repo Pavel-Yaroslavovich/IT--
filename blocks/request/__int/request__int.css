@@ -1,0 +1,19 @@
+.request__int {
+  box-sizing: border-box;
+  width: 343px;
+  height: 42px;
+  margin-bottom: 17px;
+  background: #ECECEC;
+}
+
+.request__int::placeholder {
+  font-size: 18px;
+  line-height: 140%;
+  color: #001E42;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .request__int {
+    margin-bottom: 14px;
+  }
+}

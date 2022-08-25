@@ -1,0 +1,15 @@
+.footer__address {
+  display: flex;
+  justify-content: space-between;
+  width: 1089px;
+  margin: 28px 15px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .footer__address {
+    width: 314px;
+    flex-direction: column;
+    justify-content: start;
+
+  }
+}

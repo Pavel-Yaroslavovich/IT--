@@ -1,29 +1,18 @@
 .about-Us {
   display: flex;
   justify-content: space-between;
+  max-width: 1100px;
   margin: 0 auto;
   margin-bottom: 58px;
-  max-width: 1100px;
-  border: 1px solid green;
+  margin-left: 175px;
+  margin-right: 175px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-  .about-Us {
-    margin-left: 175px;
-    margin-right: 175px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .about-Us {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-}
-
-@media screen and (min-width: 376px) and (max-width: 768px) {
+@media screen and (min-width: 376px) and (max-width: 767px) {
   .about-Us {
     display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
     flex-direction: column;
     max-width: 345px;
   }

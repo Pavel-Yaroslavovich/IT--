@@ -1,0 +1,20 @@
+.request__area {
+  box-sizing: border-box;
+  width: 343px;
+  height: 70px;
+  resize: none;
+  margin-bottom: 14px;
+  background: #ECECEC;
+}
+
+.request__area::placeholder {
+  font-size: 18px;
+  line-height: 140%;
+  color: #001E42;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .request__area {
+    margin-bottom: 9px;
+  }
+}

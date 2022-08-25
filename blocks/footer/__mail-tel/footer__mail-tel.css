@@ -1,0 +1,12 @@
+.footer__mail-tel {
+  width: 233px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .footer__mail-tel {
+    margin-bottom: 26px;
+  }
+}

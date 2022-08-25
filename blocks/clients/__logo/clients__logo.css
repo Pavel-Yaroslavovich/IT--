@@ -1,0 +1,11 @@
+.clients__logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 376px) and (max-width: 679px) {
+  .clients__logo {
+		justify-content: center;
+  }
+}

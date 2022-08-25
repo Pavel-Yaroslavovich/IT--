@@ -1,0 +1,21 @@
+.purpose__choice-text-photo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.purpose__choice-text-photo:nth-of-type(3) {
+  margin-right: 0;
+}
+
+.purpose__choice-text-photo img {
+  width: 38px;
+  height: 117px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 1128px) {
+  .purpose__choice-text-photo {
+    margin-right: 0;
+  }
+}

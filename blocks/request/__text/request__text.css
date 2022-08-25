@@ -1,0 +1,22 @@
+.request__text {
+  width: 374px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15px;
+  padding-top: 55px;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .request__text {
+    width: 342px;
+    font-size: 33px;
+    line-height: 120%;
+    padding-top: 0;
+    margin-left: 0;
+    margin-bottom: 39px;
+  }
+}

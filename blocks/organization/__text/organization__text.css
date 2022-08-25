@@ -1,0 +1,24 @@
+.organization__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 30px;
+  font-size: 13px;
+  line-height: 120%;
+
+  color: #A5AAAF;
+}
+
+.organization__text:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 376px) and (max-width: 800px) {
+  .organization__text {
+    width: 345px;
+    margin: 0 auto;
+    margin-bottom: 13px;
+    font-size: 12px;
+    line-height: 110%;
+  }
+}

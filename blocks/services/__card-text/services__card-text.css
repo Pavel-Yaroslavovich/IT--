@@ -3,9 +3,9 @@
   font-size: 18px;
   line-height: 130%;
   margin-left: 26px;
-  max-width: 231px;
-  color: #001E42;
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
+  box-sizing: border-box;
+  color: #001E42;
 }

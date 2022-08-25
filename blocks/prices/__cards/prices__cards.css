@@ -1,0 +1,9 @@
+.prices__cards {
+  display: flex;
+}
+
+@media screen and (min-width: 376px) and (max-width: 887px) {
+  .prices__cards {
+    flex-direction: column;
+  }
+}

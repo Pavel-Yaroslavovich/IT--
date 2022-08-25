@@ -1,0 +1,15 @@
+.clients__title {
+  font-size: 50px;
+  line-height: 61px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #001E42;
+}
+
+@media screen and (min-width: 376px) and (max-width: 889px) {
+  .clients__title  {
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  }
+}

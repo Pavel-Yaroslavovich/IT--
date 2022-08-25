@@ -4,7 +4,6 @@
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1050px;
-  border: 1px solid blue;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

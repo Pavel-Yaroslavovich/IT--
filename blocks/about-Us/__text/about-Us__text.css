@@ -1,18 +1,17 @@
 .about-Us__text {
-  width: 186px;
+  max-width: 186px;
   white-space: nowrap;
   font-weight: bold;
   font-size: 50px;
   line-height: 61px;
   margin-top: 0;
   margin-bottom: 0;
-
   color: #001E42;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1440px) {
   .about-Us__text  {
-    margin-right: 66px;
+    margin-right: 46px;
   }
 }
 
@@ -20,7 +19,8 @@
   .about-Us__text {
     font-size: 36px;
     line-height: 44px;
-    color: #001E42;
     margin-bottom: 20px;
+    margin: 0 auto;
+    color: #001E42;
   }
 }

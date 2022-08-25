@@ -5,12 +5,19 @@
   line-height: 130%;
   margin-top: 0;
   margin-bottom: 0;
-
   color: #001E42;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1128px) {
   .purpose__spk-text {
     margin-top: 40px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .purpose__spk-text {
+    width: 344px;
+    font-size: 22px;
   }
 }

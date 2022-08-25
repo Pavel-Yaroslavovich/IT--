@@ -1,0 +1,15 @@
+.prices {
+  margin: 0 auto;
+  margin-right: 175px;
+  margin-left: 175px;
+  max-width: 1089px;
+  margin-bottom: 58px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 700px) {
+  .prices {
+    width: 344px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
